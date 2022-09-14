@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: _docs
+  preview:
+    port: 3000
+    browser: false
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 4
+
+website:
+  title: "nbdev2-trial"
+  site-url: "https://Rushil-Gupta.github.io/nbdev2-trial"
+  description: "Trying the new nbdev2 development platform for jupyter and git"
+  twitter-card: true
+  open-graph: true
+  repo-branch: master
+  repo-url: "https://github.com/Rushil-Gupta/nbdev2-trial"
+  repo-actions: [issue]
+  navbar:
+    background: primary
+    search: true
+    right:
+      - icon: github
+        href: "https://github.com/Rushil-Gupta/nbdev2-trial"
+  sidebar:
+    style: "floating"
+
+metadata-files: 
+  - sidebar.yml
+  - custom.yml
